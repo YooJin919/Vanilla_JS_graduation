@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>My Project</title>
+</head>
+
+<body>
+    <div>
+        <h1 id="date"></h1>
+        <h2 id="clock"></h2>
+    </div>
+
+    <div id="identify">
+        <form id="login-form">
+            <input required maxlength="15" type="text" placeholder="What is your name?" />
+            <button id="logIn">Log In</button>
+        </form>
+
+        <h2 id="greeting" class="hidden"></h2>
+        <button id="logOut" class="hidden">Log Out</button>
+    </div>
+
+    <div id="weather">
+        <span></span>
+        <span></span>
+    </div>
+    <div id="todo">
+        <h3 id="head">✔ To Do List</h3>
+        <form id="todo-form">
+            <input type="text" placeholder="Write your To Do List" required />
+        </form>
+
+        <ul id="todo-list"></ul>
+    </div>
+
+    <script src="clock.js"></script>
+    <script src="login.js"></script>
+    <script src="random_background.js"></script>
+    <script src="todolist.js"></script>
+    <script src="weather&geolocation.js"></script>
+</body>
+
+</html>

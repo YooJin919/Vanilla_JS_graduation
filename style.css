@@ -1,0 +1,59 @@
+#greeting{
+    display: inline;
+}
+
+.hidden {
+    display: none;
+}
+
+#identify {
+    margin:15px 0 40px 0;
+}
+
+#date, #clock {
+    display:inline-block;
+    margin:20px 10px 20px 0;
+}
+
+#logIn, #logOut {
+    margin-left: 7px;
+}
+
+body{
+    color:white;
+}
+
+.but{
+    margin-left : 7px;
+}
+
+#weather, #todo{
+    margin-bottom: 20px;
+}
+
+#weather {
+    border: white solid 1.5px;
+    text-align: center;
+    padding:15px;
+    font-weight: bold;
+    line-height:30px;
+}
+
+#head {
+    margin-bottom: 3px;
+}
+
+#todo {
+    border: 1.5px white solid;
+    padding:20px;
+    margin:0;
+}
+
+#todo>#head, #todo>#todo-form{
+    display:inline;
+    margin-right:5px;
+}
+
+#todo-list{
+    margin-top:7px;
+}
